@@ -12,4 +12,4 @@ def fatorial(numero):
         return numero * fatorial(numero - 1) 
 
 contagem_regressiva(3)
-print (fatorial(3))
+print(fatorial(3))
