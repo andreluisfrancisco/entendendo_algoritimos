@@ -6,7 +6,3 @@ def verificar_votante(nome):
     else:
         votantes[nome] = True
         print("Deixar votar!")
-
-# Exemplo de uso
-# verificar_votante("Alice")  # Deixar votar!
-# verificar_votante("Alice")  # Expulsar!
