@@ -1,19 +1,15 @@
 estados_necessarios = set(["ac", "al", "ap", "ba", "ce", "df", "es", "go", "ma", "mt", "ms", "mg", "pa", "pb", "pr", "pe", "pi", "rj", "rn", "rs", "ro", "rr", "sc", "se", "sp", "to"])
 
 estacoes = {
-    "estacao1": set(["ac", "ro", "am"]),
-    "estacao2": set(["ap", "pa", "ma"]),
-    "estacao3": set(["ce", "pb", "pe"]),
-    "estacao4": set(["ba", "mg", "es"]),
-    "estacao5": set(["sp", "rj", "pr"]),
-    "estacao6": set(["rs", "sc", "to"]),
-    "estacao7": set(["df", "go", "ms"]),
+    "estacao1": set(["ac", "ro", "am", "ap", "pa", "ma", "ce"]),
+    "estacao2": set(["pb", "pe", "ba", "mg", "es", "sp"]),
+    "estacao3": set(["rj", "pr", "rs", "sc", "to"]),
+    "estacao4": set(["df", "go", "ms"]),
 }
 
 estacoes_finais = set()
 
 def encontrar_melhor_estacao(estados_necessarios, estacoes):
-    """Encontra a estação que cobre o maior número de estados não cobertos."""
     melhor_estacao = None
     estados_cobertos = set()
     
