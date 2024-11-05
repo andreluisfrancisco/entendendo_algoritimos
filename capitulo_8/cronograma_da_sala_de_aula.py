@@ -48,7 +48,7 @@ if __name__ == "__main__":
     cronograma.adicionar_sala(sala_a)
     cronograma.adicionar_sala(sala_b)
 
-    cronograma.agendar_aula(aula_matematica, sala_a, "08:00")
+    cronograma.agendar_aula(aula_matematica, sala_a, "07:00")
     cronograma.agendar_aula(aula_fisica, sala_a, "09:30")
     cronograma.agendar_aula(aula_quimica, sala_b, "10:00")
     
