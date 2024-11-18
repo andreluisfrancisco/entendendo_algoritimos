@@ -53,3 +53,5 @@ if __name__ == "__main__":
     cronograma.agendar_aula(aula_quimica, sala_b, "10:00")
     
     cronograma.agendar_aula(aula_fisica, sala_a, "09:30")
+
+#config token 
